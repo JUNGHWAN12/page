@@ -1,3 +1,4 @@
+python == 12.3
 streamlit
 tensorflow
 numpy
