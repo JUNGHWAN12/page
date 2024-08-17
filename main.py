@@ -162,9 +162,9 @@ def process_camera_and_audio():
 def process_camera_only():
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     cap = cv2.VideoCapture(0)
-    #if not cap.isOpened():
-    #    st.error("웹캠을 열 수 없습니다.")
-     #   return
+    if not cap.isOpened():
+        st.error("웹캠을 열 수 없습니다.")
+        return
 
     stframe = st.empty()  # 웹캠 프레임을 표시할 공간
     timer_placeholder = st.empty()  # 타이머를 표시할 공간
