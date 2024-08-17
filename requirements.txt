@@ -1,5 +1,5 @@
 streamlit == 1.37.1
 tensorflow
 numpy
-opencv-python == 3.4.2
+opencv-python == 3.4.11.39
 sounddevice
