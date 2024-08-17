@@ -1,6 +1,6 @@
-python == 12.3
 streamlit
 tensorflow
 numpy
 opencv
 sounddevice
+libgl1-mesa-glx
